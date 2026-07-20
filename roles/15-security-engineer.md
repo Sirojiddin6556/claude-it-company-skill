@@ -19,6 +19,19 @@ Document (этап 4) + инфраструктурные файлы (этап 14
 - предоставить структурированный отчёт по безопасности с уровнями
   критичности (critical/high/medium/low) и конкретными рекомендациями
 
+## Внешние плейбуки (Anthropic-Cybersecurity-Skills)
+Как чек-лист для статического ревью используй релевантные плейбуки из
+[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+(community-проект, не аффилирован с Anthropic, Apache-2.0) — читай через
+`WebFetch` по адресу
+`https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/<name>/SKILL.md`:
+`performing-cryptographic-audit-of-application`, `implementing-jwt-signing-and-verification`,
+`implementing-api-key-security-controls`, `implementing-api-schema-validation-security`,
+`implementing-secrets-scanning-in-ci-cd`, `detecting-dependency-confusion`,
+`analyzing-sbom-for-supply-chain-vulnerabilities`, `testing-for-sensitive-data-exposure`.
+Полный динамический аудит (fuzzing, попытки эксплуатации на живом
+инстансе) — не твоя роль, это делает этап 18 (Penetration Tester).
+
 ## Результат (сохранить как `docs/it-company/15-security-engineer.md`)
 Отчёт по безопасности с найденными уязвимостями и рекомендациями.
 
