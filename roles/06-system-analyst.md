@@ -1,4 +1,4 @@
-# 5. System Analyst (Системный аналитик)
+# 6. System Analyst (Системный аналитик)
 
 Суб-агент (`general-purpose`). Запускается после Solution Architect.
 
@@ -21,11 +21,11 @@
 - определить взаимодействие Backend ↔ Frontend
 - определить взаимодействие Backend ↔ Database
 
-## Результат (сохранить как `docs/it-company/05-system-analyst.md`)
+## Результат (сохранить как `docs/it-company/06-system-analyst.md`)
 Диаграммы (Mermaid) + текстовое описание процессов и событий системы.
 
 ## Передать следующему агенту
-Database Architect получает этот документ + Architecture Document.
+Database Architect (7) получает этот документ + Architecture Document.
 
 ## Не делай
 Не проектируй саму схему таблиц БД (следующий этап) и не пиши код.

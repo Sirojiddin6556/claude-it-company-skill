@@ -24,8 +24,9 @@ Architecture Document: выбранный стек, структура папо�
 компонентов, ключевые архитектурные решения и их обоснование.
 
 ## Передать следующему агенту
-System Analyst и Database Architect получают Architecture Document +
-Business Requirements. Backend Lead и Frontend Lead получат его позже.
+Security Architect (5) получает Architecture Document для построения
+модели угроз. System Analyst (6) и Database Architect (7) получают его
+позже. Backend Architect и Frontend Architect получат его ещё позже.
 
 ## Не делай
 Не проектируй схему БД в деталях (это System/Database Architect) и не
