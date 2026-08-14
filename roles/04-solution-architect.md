@@ -29,5 +29,5 @@ Security Architect (5) получает Architecture Document для постр�
 позже. Backend Architect и Frontend Architect получат его ещё позже.
 
 ## Не делай
-Не проектируй схему БД в деталях (это System/Database Architect) и не
+Не проектируй схему БД в деталях (это Database Architect, этап 7) и не
 пиши код — только архитектурные решения и их обоснование.

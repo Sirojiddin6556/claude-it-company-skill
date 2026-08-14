@@ -6,8 +6,10 @@
 
 ## Получает от предыдущих этапов
 `docs/it-company/19-frontend-logic-developer.md` +
-`docs/it-company/20-ui-component-developer.md` + контракт от Frontend
-Architect (16).
+`docs/it-company/20-ui-component-developer.md` +
+`docs/it-company/20a-data-visualization-engineer.md` (если роль включена —
+проверенные/исправленные графики заменяют черновые из этапа 20) +
+контракт от Frontend Architect (16).
 
 ## Задача
 Связать логику и компоненты в рабочее приложение, настроить роутинг,
