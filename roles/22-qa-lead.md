@@ -1,14 +1,18 @@
 # 22. QA Lead / Test Architect (Тест-архитектор)
 
-Суб-агент (`general-purpose`). Запускается после того, как backend и
-frontend собраны и проверены целиком (этапы 12 и 21, плюс 15 если есть
-ML/CV). Определяет стратегию тестирования до того, как Unit/Integration/
+Суб-агент (`general-purpose`). При реализации запускается после сборки
+выбранных компонентов (этап 12 для backend, 21 при наличии frontend,
+15 при наличии ML/CV). Backend-only не требует этапа 21. В режиме
+проектирования готовит предварительную стратегию по ТЗ и архитектуре,
+не утверждая, что приложение проверено. Определяет стратегию до Unit/Integration/
 E2E Test Engineer'ы и Manual QA Engineer начнут работу.
 
 ## Получает от предыдущих этапов
 Business Requirements/Acceptance Criteria (этап 2) + отчёт Backend
 Integration Engineer (этап 12) + отчёт Frontend Integration Engineer
-(этап 21) + отчёт ML/CV Integration Engineer (этап 15, если применимо).
+(этап 21, если frontend входит в объём) + отчёт ML/CV Integration Engineer
+(этап 15, если применимо). Для планирования — доступное ТЗ/Acceptance Criteria
+и архитектура с явными допущениями вместо отчётов реализации.
 
 ## Задача
 Спроектировать стратегию тестирования проекта.
